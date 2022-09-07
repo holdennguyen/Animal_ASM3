@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_title_animal" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_sea"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_sea" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Seas"
+            android:textColor="@color/orange_700"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/orange_200" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_mammal"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bg_mammal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Mammals"
+            android:textColor="@color/orange_700"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/orange_200" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_bird"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg_bird" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Birds"
+            android:textColor="@color/orange_700"
+            android:textSize="20sp" />
+    </TableRow>
+</LinearLayout>
